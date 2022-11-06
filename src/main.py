@@ -45,7 +45,7 @@ def highlight_lanes(image):
 def laneDetect(video):
 
     cap = cv2.VideoCapture(video)
-    # out = cv2.VideoWriter('problem2.avi', cv2.VideoWriter_fourcc('M','J','P','G'), 10, (960,540))
+    # out = cv2.VideoWriter('../output/problem2.avi', cv2.VideoWriter_fourcc('M','J','P','G'), 10, (960,540))
 
     while(cap.isOpened()):
         ret, frame = cap.read()
@@ -65,6 +65,6 @@ def laneDetect(video):
 
 if __name__ == "__main__":
     
-    laneDetect('whiteline.mp4')
+    laneDetect('../data/whiteline.mp4')
 
         
