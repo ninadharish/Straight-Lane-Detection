@@ -35,7 +35,7 @@ Given a dashcam video of a car, this project attempts to detect the lane inside 
 
 * Final Output for Straight Lane Detection [Link](https://drive.google.com/file/d/1v8kkR4LeNifDvQGzbkCY7HUPcyHfM6hn/view?usp=sharing)
 
-![alt text](/output/outvid.gif)
+![alt text](/output/out_vid.gif)
 
 
 ## Getting Started
